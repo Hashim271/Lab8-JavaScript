@@ -15,7 +15,7 @@ console.log("Student: " + student.Student + "\n" + "Age: " + student.Age);
 student.displayBasicInfo();
 console.log("\n");
 
-// Part 2: Working with JSON
+// Part 2: Working with JSON 
 const studentJSON = JSON.stringify(student); //stringify
 console.log("JSON String");
 console.log(studentJSON);
@@ -27,3 +27,4 @@ console.log(parsedStudent);
 console.log("\nComparison: "); //Comparing to original
 console.log("Same Structure?", JSON.stringify(student) === JSON.stringify(parsedStudent));
 console.log("Same object reference?", student === parsedStudent);
+console.log("\n");

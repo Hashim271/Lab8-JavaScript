@@ -45,9 +45,9 @@ console.log("\n");
 const clonedStudent = { ...student}; //Cloned
 
 // Graduation year added
-const updatedStudent = {
+const updatedStudent = { //cloned student with graduationYear now
     ...clonedStudent,
-    graduationYear: 2028
+    graduationYear: 2028 
 };
 
 console.log("Update on Student: ");
@@ -56,7 +56,7 @@ console.log("\n");
 
 // Part 5: Object Methods
 const newCourses = ["Algorithms", "Operating System", "Database Structures"];
-const mergedCourses = [...student.Courses, ...newCourses];
+const mergedCourses = [...student.Courses, ...newCourses]; //new courses being added
 
 console.log("\nMerged Courses: ");
 console.log(mergedCourses);

@@ -35,7 +35,8 @@ console.log("Name: ", name);
 console.log("Courses ", Courses);
 console.log("\n");
 
-const scores = [42, 0, 69, 77, 99];
+const scores = [42, 0, 69, 77, 99]; //Scores Array
 const [firstScore, secondScore] = scores;
 console.log("First Score: ", firstScore); //42
 console.log("Second Score: ", secondScore); //0
+console.log("\n");

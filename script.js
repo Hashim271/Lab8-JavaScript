@@ -28,3 +28,8 @@ console.log("\nComparison: "); //Comparing to original
 console.log("Same Structure?", JSON.stringify(student) === JSON.stringify(parsedStudent));
 console.log("Same object reference?", student === parsedStudent);
 console.log("\n");
+
+// Part 3: Using Destructuring Assignment
+const {Student: name, Courses } = student;
+console.log("Name: ", name);
+console.log("Courses ", Courses);

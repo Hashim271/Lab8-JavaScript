@@ -40,3 +40,15 @@ const [firstScore, secondScore] = scores;
 console.log("First Score: ", firstScore); //42
 console.log("Second Score: ", secondScore); //0
 console.log("\n");
+
+// Part 4: The Spread Operator
+const clonedStudent = { ...student}; //Cloned
+
+// Graduation year added
+const updatedStudent = {
+    ...clonedStudent,
+    graduationYear: 2028
+};
+
+console.log("Update on Student: ");
+console.log(updatedStudent); //has function on terminal

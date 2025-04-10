@@ -18,4 +18,8 @@ console.log("\n");
 // Part 2: Working with JSON
 const studentJSON = JSON.stringify(student);
 console.log("JSON String");
-console.log
+console.log(studentJSON);
+
+const parsedStudent = JSON.parse(studentJSON);
+console.log("\nParsed Object: ");
+console.log(parsedStudent);

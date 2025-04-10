@@ -56,3 +56,8 @@ console.log("\n");
 
 // Part 5: Object Methods
 const newCourses = ["Algorithms", "Operating System", "Database Structures"];
+const mergedCourses = [...student.Courses, ...newCourses];
+
+console.log("\nMerged Courses: ");
+console.log(mergedCourses);
+console.log("\n");

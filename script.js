@@ -52,3 +52,7 @@ const updatedStudent = {
 
 console.log("Update on Student: ");
 console.log(updatedStudent); //has function on terminal
+console.log("\n");
+
+// Part 5: Object Methods
+const newCourses = ["Algorithms", "Operating System", "Database Structures"];

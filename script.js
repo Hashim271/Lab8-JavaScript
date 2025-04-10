@@ -16,10 +16,14 @@ student.displayBasicInfo();
 console.log("\n");
 
 // Part 2: Working with JSON
-const studentJSON = JSON.stringify(student);
+const studentJSON = JSON.stringify(student); //stringify
 console.log("JSON String");
 console.log(studentJSON);
 
-const parsedStudent = JSON.parse(studentJSON);
+const parsedStudent = JSON.parse(studentJSON); //parsed 
 console.log("\nParsed Object: ");
 console.log(parsedStudent);
+
+console.log("\nComparison: "); //Comparing to original
+console.log("Same Structure?", JSON.stringify(student) === JSON.stringify(parsedStudent));
+console.log("Same object reference?", student === parsedStudent);
